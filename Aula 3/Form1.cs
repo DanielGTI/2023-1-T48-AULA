@@ -9,11 +9,16 @@ namespace Aula_3
 
         private void btnInteiros_Click(object sender, EventArgs e)
         {
+            double a, b;
             int av1, av2, soma;
 
             //  CAPTURAR OS VALORES
-            av1 = Convert.ToInt32(txtAV1.Text);
-            av2 = Convert.ToInt32(txtAV2.Text);
+            a = Convert.ToDouble(txtAV1.Text);
+            b = Convert.ToDouble(txtAV2.Text);
+
+            av1 = (int)a;
+            av2 = (int)b;
+
 
             //  CALCULAR A SOMA
             soma = av1 + av2;
