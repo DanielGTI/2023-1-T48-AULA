@@ -69,5 +69,15 @@ namespace Aula_4.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tela_Caixa_Banco_Ajustada {
+            get {
+                object obj = ResourceManager.GetObject("Tela Caixa Banco Ajustada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -109,7 +109,7 @@
             // 
             btn_05.BackColor = SystemColors.Control;
             btn_05.FlatAppearance.BorderSize = 0;
-            btn_05.Location = new Point(587, 61);
+            btn_05.Location = new Point(587, 60);
             btn_05.Name = "btn_05";
             btn_05.Size = new Size(90, 28);
             btn_05.TabIndex = 4;
@@ -131,7 +131,7 @@
             // 
             btn_07.BackColor = SystemColors.Control;
             btn_07.FlatAppearance.BorderSize = 0;
-            btn_07.Location = new Point(587, 161);
+            btn_07.Location = new Point(587, 160);
             btn_07.Name = "btn_07";
             btn_07.Size = new Size(90, 28);
             btn_07.TabIndex = 6;
@@ -141,7 +141,7 @@
             // 
             btn_08.BackColor = SystemColors.Control;
             btn_08.FlatAppearance.BorderSize = 0;
-            btn_08.Location = new Point(587, 212);
+            btn_08.Location = new Point(587, 210);
             btn_08.Name = "btn_08";
             btn_08.Size = new Size(90, 28);
             btn_08.TabIndex = 7;
@@ -448,7 +448,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Tela_Caixa_Banco;
+            BackgroundImage = Properties.Resources.Tela_Caixa_Banco_Ajustada;
             ClientSize = new Size(734, 561);
             Controls.Add(btn_cancelar);
             Controls.Add(btn_num_c);
