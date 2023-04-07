@@ -94,6 +94,7 @@
             btn__03.Size = new Size(90, 28);
             btn__03.TabIndex = 2;
             btn__03.UseVisualStyleBackColor = false;
+            btn__03.Click += btn__03_Click;
             // 
             // btn_04
             // 
@@ -104,6 +105,7 @@
             btn_04.Size = new Size(90, 28);
             btn_04.TabIndex = 3;
             btn_04.UseVisualStyleBackColor = false;
+            btn_04.Click += btn_04_Click;
             // 
             // btn_05
             // 
@@ -136,6 +138,7 @@
             btn_07.Size = new Size(90, 28);
             btn_07.TabIndex = 6;
             btn_07.UseVisualStyleBackColor = false;
+            btn_07.Click += btn_07_Click;
             // 
             // btn_08
             // 
@@ -146,16 +149,18 @@
             btn_08.Size = new Size(90, 28);
             btn_08.TabIndex = 7;
             btn_08.UseVisualStyleBackColor = false;
+            btn_08.Click += btn_08_Click;
             // 
             // lbl_menu_01
             // 
             lbl_menu_01.AutoSize = true;
             lbl_menu_01.BackColor = Color.White;
-            lbl_menu_01.Location = new Point(209, 66);
+            lbl_menu_01.Location = new Point(209, 67);
             lbl_menu_01.Name = "lbl_menu_01";
-            lbl_menu_01.Size = new Size(15, 15);
+            lbl_menu_01.Size = new Size(36, 15);
             lbl_menu_01.TabIndex = 8;
-            lbl_menu_01.Text = "A";
+            lbl_menu_01.Text = "Saldo";
+            lbl_menu_01.Click += lbl_menu_01_Click;
             // 
             // lbl_menu_02
             // 
@@ -163,9 +168,9 @@
             lbl_menu_02.BackColor = Color.White;
             lbl_menu_02.Location = new Point(209, 117);
             lbl_menu_02.Name = "lbl_menu_02";
-            lbl_menu_02.Size = new Size(14, 15);
+            lbl_menu_02.Size = new Size(54, 15);
             lbl_menu_02.TabIndex = 9;
-            lbl_menu_02.Text = "B";
+            lbl_menu_02.Text = "Deposito";
             // 
             // lbl_menu_03
             // 
@@ -173,9 +178,9 @@
             lbl_menu_03.BackColor = Color.White;
             lbl_menu_03.Location = new Point(209, 167);
             lbl_menu_03.Name = "lbl_menu_03";
-            lbl_menu_03.Size = new Size(15, 15);
+            lbl_menu_03.Size = new Size(44, 15);
             lbl_menu_03.TabIndex = 10;
-            lbl_menu_03.Text = "C";
+            lbl_menu_03.Text = "Extrato";
             // 
             // lbl_menu_04
             // 
@@ -183,61 +188,65 @@
             lbl_menu_04.BackColor = Color.White;
             lbl_menu_04.Location = new Point(209, 217);
             lbl_menu_04.Name = "lbl_menu_04";
-            lbl_menu_04.Size = new Size(15, 15);
+            lbl_menu_04.Size = new Size(76, 15);
             lbl_menu_04.TabIndex = 11;
-            lbl_menu_04.Text = "D";
+            lbl_menu_04.Text = "Transferência";
             // 
             // lbl_menu_05
             // 
             lbl_menu_05.AutoSize = true;
             lbl_menu_05.BackColor = Color.White;
-            lbl_menu_05.Location = new Point(533, 73);
+            lbl_menu_05.Location = new Point(522, 73);
             lbl_menu_05.Name = "lbl_menu_05";
-            lbl_menu_05.Size = new Size(13, 15);
+            lbl_menu_05.RightToLeft = RightToLeft.Yes;
+            lbl_menu_05.Size = new Size(24, 15);
             lbl_menu_05.TabIndex = 12;
-            lbl_menu_05.Text = "E";
+            lbl_menu_05.Text = "PIX";
             lbl_menu_05.TextAlign = ContentAlignment.TopRight;
             // 
             // lbl_menu_06
             // 
             lbl_menu_06.AutoSize = true;
             lbl_menu_06.BackColor = Color.White;
-            lbl_menu_06.Location = new Point(533, 117);
+            lbl_menu_06.Location = new Point(506, 117);
             lbl_menu_06.Name = "lbl_menu_06";
-            lbl_menu_06.Size = new Size(13, 15);
+            lbl_menu_06.RightToLeft = RightToLeft.Yes;
+            lbl_menu_06.Size = new Size(40, 15);
             lbl_menu_06.TabIndex = 13;
-            lbl_menu_06.Text = "F";
+            lbl_menu_06.Text = "Dados";
             lbl_menu_06.TextAlign = ContentAlignment.TopRight;
             // 
             // lbl_menu_07
             // 
             lbl_menu_07.AutoSize = true;
             lbl_menu_07.BackColor = Color.White;
-            lbl_menu_07.Location = new Point(533, 168);
+            lbl_menu_07.Location = new Point(492, 167);
             lbl_menu_07.Name = "lbl_menu_07";
-            lbl_menu_07.Size = new Size(15, 15);
+            lbl_menu_07.RightToLeft = RightToLeft.Yes;
+            lbl_menu_07.Size = new Size(54, 15);
             lbl_menu_07.TabIndex = 14;
-            lbl_menu_07.Text = "G";
+            lbl_menu_07.Text = "Recargas";
             lbl_menu_07.TextAlign = ContentAlignment.TopRight;
             // 
             // lbl_menu_08
             // 
             lbl_menu_08.AutoSize = true;
             lbl_menu_08.BackColor = Color.White;
-            lbl_menu_08.Location = new Point(533, 217);
+            lbl_menu_08.Location = new Point(520, 217);
             lbl_menu_08.Name = "lbl_menu_08";
-            lbl_menu_08.Size = new Size(16, 15);
+            lbl_menu_08.Size = new Size(26, 15);
             lbl_menu_08.TabIndex = 15;
-            lbl_menu_08.Text = "H";
-            lbl_menu_08.TextAlign = ContentAlignment.TopRight;
+            lbl_menu_08.Text = "Sair";
+            lbl_menu_08.TextAlign = ContentAlignment.MiddleRight;
             // 
             // lbl_Menu_Texto
             // 
             lbl_Menu_Texto.AutoSize = true;
             lbl_Menu_Texto.BackColor = Color.White;
-            lbl_Menu_Texto.Location = new Point(362, 143);
+            lbl_Menu_Texto.Font = new Font("Courier New", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            lbl_Menu_Texto.Location = new Point(355, 95);
             lbl_Menu_Texto.Name = "lbl_Menu_Texto";
-            lbl_Menu_Texto.Size = new Size(41, 15);
+            lbl_Menu_Texto.Size = new Size(44, 17);
             lbl_Menu_Texto.TabIndex = 16;
             lbl_Menu_Texto.Text = "MENU";
             // 
@@ -287,7 +296,7 @@
             btn_limpar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btn_limpar.Location = new Point(433, 363);
             btn_limpar.Name = "btn_limpar";
-            btn_limpar.Size = new Size(80, 40);
+            btn_limpar.Size = new Size(90, 40);
             btn_limpar.TabIndex = 24;
             btn_limpar.Text = "Limpar";
             btn_limpar.UseVisualStyleBackColor = false;
@@ -339,7 +348,7 @@
             btn_enter.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btn_enter.Location = new Point(433, 409);
             btn_enter.Name = "btn_enter";
-            btn_enter.Size = new Size(80, 40);
+            btn_enter.Size = new Size(90, 40);
             btn_enter.TabIndex = 28;
             btn_enter.Text = "Enter";
             btn_enter.UseVisualStyleBackColor = false;
@@ -391,7 +400,7 @@
             btn_num_c.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btn_num_c.Location = new Point(433, 455);
             btn_num_c.Name = "btn_num_c";
-            btn_num_c.Size = new Size(80, 40);
+            btn_num_c.Size = new Size(90, 40);
             btn_num_c.TabIndex = 32;
             btn_num_c.UseVisualStyleBackColor = false;
             // 
@@ -437,10 +446,9 @@
             btn_cancelar.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             btn_cancelar.Location = new Point(433, 317);
             btn_cancelar.Name = "btn_cancelar";
-            btn_cancelar.Size = new Size(80, 40);
+            btn_cancelar.Size = new Size(90, 40);
             btn_cancelar.TabIndex = 33;
             btn_cancelar.Text = "Cancelar";
-            btn_cancelar.TextAlign = ContentAlignment.BottomCenter;
             btn_cancelar.UseVisualStyleBackColor = false;
             btn_cancelar.Click += button4_Click_1;
             // 
@@ -485,6 +493,7 @@
             Controls.Add(btn_01);
             Name = "frm_Caixa";
             Text = "Caixa";
+            Load += frm_Caixa_Load;
             ResumeLayout(false);
             PerformLayout();
         }
