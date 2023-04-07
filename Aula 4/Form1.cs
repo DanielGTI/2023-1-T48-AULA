@@ -2,7 +2,7 @@ namespace Aula_4
 {
     public class var_Global
     {
-        public static String txt_Menu;
+        public static String txt_Menu = "";
 
     }
 
