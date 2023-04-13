@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            
             btn_01 = new Button();
             btn_02 = new Button();
             btn__03 = new Button();
@@ -61,7 +62,7 @@
             btn_num_0 = new Button();
             btn_num_a = new Button();
             btn_cancelar = new Button();
-            SuspendLayout();
+            //SuspendLayout();
             // 
             // btn_01
             // 

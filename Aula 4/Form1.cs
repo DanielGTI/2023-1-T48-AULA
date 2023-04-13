@@ -3,7 +3,7 @@ namespace Aula_4
     public class var_Global
     {
         public static String txt_Menu = "";
-
+        public static double saldo = 1000.50;
     }
 
     public partial class frm_Caixa : Form
@@ -16,7 +16,7 @@ namespace Aula_4
         public void centralizarCaixa(frm_Caixa frm)
         {
             int tam_Menu = 0, ponto_Central = 375;
-            tam_Menu = (int) var_Global.txt_Menu.Length / 2;
+            tam_Menu = (int)var_Global.txt_Menu.Length / 2;
             lbl_Menu_Texto.Location = new Point(ponto_Central - (tam_Menu * 9), 95);
 
         }
@@ -34,14 +34,18 @@ namespace Aula_4
 
         private void btn_01_Click(object sender, EventArgs e)
         {
-            //  lbl_Menu_Texto.Text = "A";
-            iniciarCaixa(this, "Saldo");
+            String valor = "Saldo";
+            valor += "\nValor R$ " + var_Global.saldo.ToString();
+            
+            iniciarCaixa(this, valor);
         }
 
         private void btn_02_Click(object sender, EventArgs e)
         {
-            //  lbl_Menu_Texto.Text = "B";
-            iniciarCaixa(this, "Depósito");
+            String valor = "Deposito";
+            valor += "\nDepositado R$ 100,00";
+            var_Global.saldo += 100;
+            iniciarCaixa(this, valor);
         }
 
         private void btn_05_Click(object sender, EventArgs e)
