@@ -1,11 +1,14 @@
 namespace Aula_4
 {
+<<<<<<< HEAD
     public class var_Global
     {
         public static String txt_Menu = "";
         public static double saldo = 1000.50;
     }
 
+=======
+>>>>>>> parent of d715a72 (Alteracao Menu)
     public partial class frm_Caixa : Form
     {
         public frm_Caixa()
@@ -13,6 +16,7 @@ namespace Aula_4
             InitializeComponent();
         }
 
+<<<<<<< HEAD
         public void centralizarCaixa(frm_Caixa frm)
         {
             int tam_Menu = 0, ponto_Central = 375;
@@ -27,6 +31,8 @@ namespace Aula_4
             centralizarCaixa(this);
         }
 
+=======
+>>>>>>> parent of d715a72 (Alteracao Menu)
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -34,30 +40,36 @@ namespace Aula_4
 
         private void btn_01_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             String valor = "Saldo";
             valor += "\nValor R$ " + var_Global.saldo.ToString();
             
             iniciarCaixa(this, valor);
+=======
+            lbl_Menu_Texto.Text = "A";
+>>>>>>> parent of d715a72 (Alteracao Menu)
         }
 
         private void btn_02_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             String valor = "Deposito";
             valor += "\nDepositado R$ 100,00";
             var_Global.saldo += 100;
             iniciarCaixa(this, valor);
+=======
+            lbl_Menu_Texto.Text = "B";
+>>>>>>> parent of d715a72 (Alteracao Menu)
         }
 
         private void btn_05_Click(object sender, EventArgs e)
         {
-            //  lbl_Menu_Texto.Text = "E";
-            iniciarCaixa(this, "PIX");
+            lbl_Menu_Texto.Text = "E";
         }
 
         private void btn_06_Click(object sender, EventArgs e)
         {
-            //  lbl_Menu_Texto.Text = "F";
-            iniciarCaixa(this, "Dados");
+            lbl_Menu_Texto.Text = "F";
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -128,42 +140,6 @@ namespace Aula_4
         private void btn_enter_Click(object sender, EventArgs e)
         {
             lbl_Menu_Texto.Text = "ENTER";
-        }
-
-        private void btn__03_Click(object sender, EventArgs e)
-        {
-            //  lbl_Menu_Texto.Text = "C";
-            iniciarCaixa(this, "Extrato");
-        }
-
-        private void btn_04_Click(object sender, EventArgs e)
-        {
-            //  lbl_Menu_Texto.Text = "D";
-            iniciarCaixa(this, "Transferencia");
-        }
-
-        private void btn_07_Click(object sender, EventArgs e)
-        {
-            //  lbl_Menu_Texto.Text = "G";
-            iniciarCaixa(this, "Recargas");
-        }
-
-        private void btn_08_Click(object sender, EventArgs e)
-        {
-            //  lbl_Menu_Texto.Text = "H";
-            iniciarCaixa(this, "Sair");
-        }
-
-        private void frm_Caixa_Load(object sender, EventArgs e)
-        {
-            iniciarCaixa(this, "Menu do Banco Memorial");
-
-
-        }
-
-        private void lbl_menu_01_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
