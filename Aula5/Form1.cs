@@ -159,6 +159,8 @@ namespace Aula5
 
         public void exibirBotao()
         {
+            
+            
             if (txt_escolha1.Text != "" &&
                 txt_escolha2.Text != "" &&
                 txt_escolha3.Text != "" &&
